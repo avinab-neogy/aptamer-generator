@@ -15,14 +15,14 @@ A Python package for generating DNA aptamer candidates with controlled GC conten
 ### From GitHub
 
 ```
-pip install git+https://github.com/yourusername/aptamer-generator.git
+pip install git+https://github.com/yourusername/aptamer_generator.git
 ```
 
 ### Local Development
 
 ```
-git clone https://github.com/yourusername/aptamer-generator.git
-cd aptamer-generator
+git clone https://github.com/yourusername/aptamer_generator.git
+cd aptamer_generator
 pip install -e .[test] # Editable mode with test dependencies
 ```
 
