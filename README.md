@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/aptamer-generator.svg)](https://badge.fury.io/py/aptamer-generator)
+
 # Aptamer Generator
 
 A Python package for generating DNA aptamer candidates with controlled GC content using AI-driven methods.
