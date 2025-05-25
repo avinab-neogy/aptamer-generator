@@ -54,19 +54,6 @@ print(f"Sequence {i}: {seq}")
 
 ```
 
-### Advanced Usage
-```
-
-
-# Generate sequences with strict GC constraints
-
-high_gc_seqs = generator.generate_candidates(
-num=10,
-gc_range=(0.6, 0.7)
-)
-
-```
-
 ## Development
 
 ### Running Tests
@@ -89,26 +76,6 @@ python -m build
 twine upload dist/*
 
 ```
-
-## API Reference
-
-### `AptamerGenerator`
-```
-
-class AptamerGenerator(seed=None)
-
-```
-- `seed`: Integer seed for reproducible results
-
-#### Methods
-```
-
-.generate_candidates(num=10, length=40, gc_range=(0.4, 0.6))
-
-```
-- `num`: Number of sequences to generate
-- `length`: Nucleotide length per sequence
-- `gc_range`: Tuple of (min_gc, max_gc) as fractions (0.0-1.0)
 
 ## Technical Details
 
